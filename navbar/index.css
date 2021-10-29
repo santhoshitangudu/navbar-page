@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: silver;
+    color: black;
+}
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+a{
+    text-decoration: none;
+}
+ul,ol {
+    list-style: none;
+}
+.row{
+    width: 100%;
+    float: left;
+    background-color: darkgoldenrod;
+    line-height: 100px;
+    border-bottom: 1px solid red;
+}
+.container .row .logo{
+    width: 40%;
+    float: left;
+    font-size: 60px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+}
+.container .row .menu{
+    width: 60%;
+    float: right;
+}
+.container .row .menu ul li {
+    float: left; 
+} 
+.container .row .menu ul li a{
+    padding: 15px 20px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+}
+.container .row .menu ul li a:hover{
+    background-color: aqua;
+    color: black;
+    border-radius: 10px;
+}
+.row1{
+    width: 100%;
+}
+.row1 img{
+    width: 100%;
+    margin-top: 10px;
+    height: 500px;
+}
+.container .row2{
+    width:100%;
+    float: left;
+    margin-top: 20px;
+    text-align: justify;
+}
+.container .row2 .para1{
+    float:left;
+    width: 45%;
+    background-color: pink;
+    padding: 20px;
+}
+.container .row2 .para2{
+    float:right;
+    width: 45%;
+    background-color: pink;
+    padding: 20px;
+}
+.container .row3{
+    width: 100%;
+    text-align: justify;
+}
+.row3 .para3,.para4,.para5{
+    background: #555;
+    color: #fff;
+    text-align: justify;
+    line-height: 1.5;
+    padding: 20px;
+    width: 27%;
+    float: left;
+    margin: 12px;
+}
+.container .row3 .para3{
+    float: left;
+    width: 27%;
+    background-color: skyblue;
+    padding: 20px;
+}
+.container .row3 .para4 {
+    height: 700px
+}
+.container .row3 .para4 img{
+    /* border-radius: 50%;
+    position: relative;
+     top: 80px;
+    width: 330px;
+    height: ; */
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
+.container .row3 .para5{
+    float: right;
+    width: 27%;
+    background-color: skyblue;
+    padding: 20px; 
+}
+.clear{
+    clear: both;
+}
